@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/portraits.rpy", line 1830: Line is indented, but the preceding image statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    layeredimage dawn2:
+    ^
+
+Ren'Py Version: Ren'Py 8.2.0.24012702
+Fri Mar 29 15:26:06 2024

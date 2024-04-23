@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/scenes/1_April/010402Friday/prologue.rpy", line 72, in script
+    hide dawn with diss
+  File "game/scenes/1_April/010402Friday/prologue.rpy", line 72, in <module>
+    hide dawn with diss
+NameError: name 'diss' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/scenes/1_April/010402Friday/prologue.rpy", line 72, in script
+    hide dawn with diss
+  File "C:\Windows\SysWOW64\Tasks\Undertale\PokemonAcademyLifeForever-2.28b.2024-win\renpy\ast.py", line 1359, in execute
+    paired = renpy.python.py_eval(self.paired)
+  File "C:\Windows\SysWOW64\Tasks\Undertale\PokemonAcademyLifeForever-2.28b.2024-win\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Windows\SysWOW64\Tasks\Undertale\PokemonAcademyLifeForever-2.28b.2024-win\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/scenes/1_April/010402Friday/prologue.rpy", line 72, in <module>
+    hide dawn with diss
+NameError: name 'diss' is not defined
+
+Windows-10-10.0.19041 AMD64
+Ren'Py 8.2.0.24012702
+Pokemon Academy Life Forever 2.28b.2024
+Fri Mar 29 14:03:43 2024
